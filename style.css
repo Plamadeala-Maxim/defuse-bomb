@@ -34,13 +34,11 @@ margin: auto;
     margin: 1px;
 
 }
-
-.ecran {
-    border: white;
-    color: white;
-
-
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover, .btn9:hover, .btn0:hover {
+    background-color: #685e5e;
+    /*transition-duration: 0.8s;*/
 }
+
 
 .timer {
     color: white;
