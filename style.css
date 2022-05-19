@@ -1,0 +1,69 @@
+.bomba {
+    height: 350px;
+    width: 250px;
+    background-color: black;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+margin: auto;
+    color: white;
+
+
+}
+
+.btn123, .btn456, .btn789 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn0 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid gray;
+    color: white;
+    font-size: 30px;
+    margin: 1px;
+
+}
+
+.ecran {
+    border: white;
+    color: white;
+
+
+}
+
+.timer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+
+
+}
+
+.ecran {
+    display: flex;
+    margin: 30px;
+
+}
+
+.ecran1, .ecran2, .ecran3, .ecran4 {
+    border: red 3px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    color: darkred;
+    margin: 2px;
+
+
+}
