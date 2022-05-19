@@ -1,5 +1,5 @@
 .bomba {
-    height: 350px;
+    height: 390px;
     width: 250px;
     background-color: black;
     border-radius: 3%;
@@ -15,7 +15,7 @@ margin: auto;
 
 }
 
-.btn123, .btn456, .btn789 {
+.btn123, .btn456, .btn789 ,.btn00{
     display: flex;
     justify-content: center;
 }
