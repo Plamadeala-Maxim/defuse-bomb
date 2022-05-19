@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3f2e78c-d6f3-4194-a5d6-e0a466d067be" name="Changes" comment="">
+    <list default="true" id="a3f2e78c-d6f3-4194-a5d6-e0a466d067be" name="Changes" comment="am modificat style.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../css_html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -40,7 +40,16 @@
       <workItem from="1652950624607" duration="7994000" />
       <workItem from="1652974861763" duration="1256000" />
       <workItem from="1652977211201" duration="64000" />
+      <workItem from="1652989724650" duration="233000" />
     </task>
+    <task id="LOCAL-00001" summary="am modificat style.css">
+      <created>1652989921978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652989921978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="am modificat style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="am modificat style.css" />
   </component>
 </project>
