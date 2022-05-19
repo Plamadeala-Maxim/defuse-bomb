@@ -57,11 +57,17 @@ margin: auto;
 
 .ecran1, .ecran2, .ecran3, .ecran4 {
     border: red 3px solid;
+    background-color: black;
     height: 40px;
     width: 40px;
     border-radius: 4px;
-    color: darkred;
+    color: #ffffff;
     margin: 2px;
-
-
+    font-size: 30px;
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
+
+
