@@ -31,6 +31,10 @@ const d = `${Math.floor(Math.random()*9)}`
 console.log(`${a}${b}${c}${d}`);
 
 
+
+
+
+
 function press(x) {
 
 
@@ -65,13 +69,62 @@ function press(x) {
             ecran4.style.backgroundColor = "red";
         }
 
+            
+
+
+
+            if (ecran1.textContent === ""){
+                ecran1.textContent += x;
+            }else if(ecran2.textContent === ""){
+                ecran2.textContent += x;
+            }else if(ecran3.textContent === ""){
+                ecran3.textContent += x;
+            }else if(ecran4.textContent === ""){
+                ecran4.textContent += x;
+                if(ecran1.textContent === a){
+                         ecran1.style.backgroundColor = "green";
+                     }else{
+                    ecran1.style.backgroundColor = "red";
+                }
+                if(ecran2.textContent === b){
+                    ecran2.style.backgroundColor = "green";
+                }else{
+                    ecran2.style.backgroundColor = "red";
+                }
+        
+                if(ecran3.textContent === c){
+                    ecran3.style.backgroundColor = "green";
+                }else{
+                    ecran3.style.backgroundColor = "red";
+                }
+        
+                if(ecran4.textContent === d){
+                    ecran4.style.backgroundColor = "green";
+                }else{
+                    ecran4.style.backgroundColor = "red";
+                }
+        }
+
+        const oneSec = () => {
+            ecran1.textContent = ""
+ecran2.textContent = ""
+ecran3.textContent = ""
+ecran4.textContent = ""
+ecran1.style.backgroundColor = "black";
+ecran2.style.backgroundColor = "black";
+ecran3.style.backgroundColor = "black";
+ecran4.style.backgroundColor = "black";
+
+}
+
+if(ecran4 !== "" && `${ecran1.textContent}${ecran2.textContent}${ecran3.textContent}${ecran4.textContent}` !== `${a}${b}${c}${d}`){
+setTimeout(oneSec,1000)
+
+}else{
+alert("maladet")
 }
 }
-
-
-
-
-
+    }
 
 
 
@@ -105,4 +158,9 @@ function press(x) {
 // function calc() {
 //     display.value = eval(display.value);
 // }
+// 
+
+
+
+
 
